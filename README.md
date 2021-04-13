@@ -1,4 +1,4 @@
-# PhoenixMiner
+# PhoenixMiner - 5.5c - AMD+NVIDIA GPU Miner 
 
  ![scredffe](https://user-images.githubusercontent.com/82437867/114514871-f1f61b80-9c65-11eb-8932-cd9a205c344d.png)
 
