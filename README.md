@@ -47,4 +47,12 @@ Double click your Bat file to start the miner. The miner will start, run the set
 Latest version is 5.5c
 File: *PhoenixMiner.exe, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92
 
+# How to check how much you’ve mined?
+
+Now that your miner is set up, you’re able to sit back and watch as your video cards gain you passive income every day in the form of Ethereum. It is important to consider any variable costs that you may incur during the mining to determine your profitability. Variable costs may be electrical costs, maintenance costs, pool fees, dev fees, exchange fees, etc.
+
+Every pool has a different interface but the principle stays the same. You’ll need to go to your pools website and type in your public wallet address. Let us use Ethermine pool as an example.
+
+You type your public wallet address in the search bar and you’ll be able to see all of the information about your Ethereum mining efforts. In the case of Ethermine pool once your balance reaches 0.01 ETH it will get sent to your wallet address that you’ve typed into the start.bat file earlier.
+
 ![scredffe](https://user-images.githubusercontent.com/82437867/114514871-f1f61b80-9c65-11eb-8932-cd9a205c344d.png)
