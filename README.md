@@ -16,6 +16,9 @@ he watchdog timer checks periodically if any of the GPUs freezes and if it does,
 
 # Getting Started
 
+Latest version is 5.5c
+File: *PhoenixMiner.exe, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92
+
 ### Step 1: Download the miner
 
 Once the download is complete, extract the contents of the .zip file
@@ -44,8 +47,6 @@ WALLET_ADDRESS - enter YOUR Ethereum wallet address (this is how PhoenixMiner Mi
 
 Double click your Bat file to start the miner. The miner will start, run the setx commands to set those environment variables, initialize each of your GPU’s, build the DAG file on each of your GPU’s and start hashing away. Let it run for about 20 seconds and then click “s” to display your Hashing speed. If you’ve followed the steps above you should see this screen.
 
-Latest version is 5.5c
-File: *PhoenixMiner.exe, SHA256: 599393e258d8ba7b8f8633e20c651868258827d3a43a4d0712125bc487eabf92
 
 # How to check how much you’ve mined?
 
