@@ -24,10 +24,15 @@ In the folder that contains the miner, you should create or edit a file with .ba
 ### Step 2: Enter the following command:
 `
 setx GPU_FORCE_64BIT_PTR 0  
+
 setx GPU_MAX_HEAP_SIZE 100 
+
 setx GPU_USE_SYNC_OBJECTS 1 
+
 setx GPU_MAX_ALLOC_PERCENT 100 
+
 setx GPU_SINGLE_ALLOC_PERCENT 100 
+
 PhoenixMiner.exe -epool eth-eu2.nanopool.org:9999 -worker YOUR_RIG_NAME -wal YOUR_WALLET ADDRESS -pass x 
 `
 
