@@ -36,6 +36,12 @@ setx GPU_SINGLE_ALLOC_PERCENT 100
 PhoenixMiner.exe -epool eth-eu2.nanopool.org:9999 -worker YOUR_RIG_NAME -wal YOUR_WALLET ADDRESS -pass x 
 ```
 
+### Step 3: Configure the miner with your settings
 
+WALLET_ADDRESS - enter YOUR Ethereum wallet address (this is how PhoenixMiner Miner knows where to deposit your ETH) RIG_NAME – you can choose any name (like test), but don’t exaggerate: it should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@). Make sure to replace the pool and wallet address by what you're using in all files.
+
+### Step 4: Start mining 
+
+Double click your Bat file to start the miner. The miner will start, run the setx commands to set those environment variables, initialize each of your GPU’s, build the DAG file on each of your GPU’s and start hashing away. Let it run for about 20 seconds and then click “s” to display your Hashing speed. If you’ve followed the steps above you should see this screen.
 
 ![scredffe](https://user-images.githubusercontent.com/82437867/114514871-f1f61b80-9c65-11eb-8932-cd9a205c344d.png)
