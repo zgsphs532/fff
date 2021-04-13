@@ -22,19 +22,20 @@ Once the download is complete, extract the contents of the .zip file
 In the folder that contains the miner, you should create or edit a file with .bat extension. You can do this in any text editor (for example, Notepad). When you save the file, it’s important to choose ‘All Files’ as a file type, not ‘txt’. Otherwise, you’ll have .bat.txt at the end of the file name, and miner won’t be able to open this file. Your bat file (let’s say it’s called 1_Ehereum-nanopool.bat) should contain the following text (Step 2):
 
 ### Step 2: Enter the following command:
-`
-setx GPU_FORCE_64BIT_PTR 0  `
-`
-setx GPU_MAX_HEAP_SIZE 100 `
-`
-setx GPU_USE_SYNC_OBJECTS 1 `
-`
-setx GPU_MAX_ALLOC_PERCENT 100 `
-`
-setx GPU_SINGLE_ALLOC_PERCENT 100 `
-`
+```
+setx GPU_FORCE_64BIT_PTR 0  
+
+setx GPU_MAX_HEAP_SIZE 100 
+
+setx GPU_USE_SYNC_OBJECTS 1 
+
+setx GPU_MAX_ALLOC_PERCENT 100 
+
+setx GPU_SINGLE_ALLOC_PERCENT 100 
+
 PhoenixMiner.exe -epool eth-eu2.nanopool.org:9999 -worker YOUR_RIG_NAME -wal YOUR_WALLET ADDRESS -pass x 
-`
+```
+
 
 
 ![scredffe](https://user-images.githubusercontent.com/82437867/114514871-f1f61b80-9c65-11eb-8932-cd9a205c344d.png)
